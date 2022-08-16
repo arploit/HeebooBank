@@ -1,0 +1,35 @@
+.NavBlock{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.875rem  8.5rem ;
+    max-height: 1.875rem;
+    ._Logo{
+        max-height: 1.875rem;
+        cursor: pointer;
+    }
+    ._NavItems{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        gap: 2.5rem;
+
+        ._Active{
+            color:#fff
+        }
+
+        ._Active:hover{
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        li{
+            cursor: pointer;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        li:hover{
+            color: #fff
+        }
+    }
+}
